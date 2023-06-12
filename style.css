@@ -1,0 +1,89 @@
+/* Font Styles */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@600&family=Poppins:wght@200;600;800&display=swap');
+body {
+    background-color: #222831;
+}
+
+
+/* Navigation Bar */
+
+.logo-brand {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    margin: 2rem 0rem 0rem 0rem; 
+}
+
+.tab-group > .nav-item > .nav-link {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin: 2.4rem 0 0 1rem;
+    font-size: 0.9rem;
+    font-weight: normal;
+}
+.navbar-toggler {
+    margin-top: 2rem;
+    background-color: white;
+}
+
+
+/* Homepage Section */ 
+
+.left-section h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-weight: bold;
+    font-size: 4.5rem;
+}
+
+
+/* Right Section - Homepage */ 
+
+.right-section img {
+    width: 25rem;
+    max-width: 100%;
+    margin-right: 3.1rem;
+}
+
+.button-group span {
+    margin-right: 14.5rem
+}
+
+.button-group .btn:nth-child(1) {
+    background-color:  #00ADB5;
+    border-color:  #00ADB5;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 0.8rem;  
+    border-radius: 1.5rem;
+}
+
+.button-group .btn:nth-child(2) {
+    background-color:rgba(57, 62, 70, 0.75);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+    border-radius: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8rem; 
+    font-weight: bold;
+    border-color: rgba(57, 62, 70, 0.75);
+}
+
+.button-group .btn:nth-child(2) img {
+    width: 0.9rem;
+}
+
+.arrow-icon img {
+    width: 5rem;
+    margin-top: 6rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 375px) {
+    
+}
